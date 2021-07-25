@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="_container header__container">
+		<div class="header__search">
+			<form class="search-form">
+				<label class="search-form__label">
+					<input class="search-form__input" type="text" placeholder="Enter Your Search Term">
+				</label>
+				<button class="search-form__btn" type="submit">
+					<span class="_icon-search"></span>
+					<span class="_icon-close"></span>
+				</button>
+			</form>
+		</div>
+		<nav class="header__menu menu">
+			<button class="menu__icon">
+				<span></span>
+			</button>
+			<div class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="index.html"
+							class="main-link menu__link menu__link_current">Home</a>
+					</li>
+					<li class="menu__item"><a href="shop.html" target="_blank"
+							class="main-link menu__link ">Shop</a>
+					</li>
+					<li class="menu__item"><a href="card.html" target="_blank"
+							class="main-link menu__link ">Products</a>
+					</li>
+					<li class="menu__item"><a href="#"
+							class="main-link menu__link ">Blog</a>
+					</li>
+					<li class="menu__item"><a href="#"
+							class="main-link menu__link ">Sale</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<a href="index.html" class="logo header__logo" aria-label="logo">
+			<img src="img/logo-mom.svg" alt="logo icon">
+		</a>
+		<div class="header__right">
+			<ul data-da=".menu__body,479.98,0" class="header__opts opts">
+				<li class="opts__item">
+					<span class="opts__caption">Language</span>
+					<div class="custom-select custom-select--header" tabindex="0">
+						<div class="custom-select__top _icon-chevron-down">EN</div>
+						<div class="custom-select__dropdown">
+							<ul class="custom-select__list">
+								<li class="custom-select__item">DE</li>
+								<li class="custom-select__item">IT</li>
+								<li class="custom-select__item">RU</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="opts__item">
+					<span class="opts__caption">Currency</span>
+					<div class="custom-select custom-select--header" tabindex="0">
+						<div class="custom-select__top _icon-chevron-down">USD</div>
+						<div class="custom-select__dropdown">
+							<ul class="custom-select__list">
+								<li class="custom-select__item">USD</li>
+								<li class="custom-select__item">EUR</li>
+								<li class="custom-select__item">RUB</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="header__shop-menu shop-menu">
+				<li class="shop-menu__item">
+					<button class="search-form__btn" aria-label="Find">
+						<span class="_icon-search lens"></span>
+					</button>
+				</li>
+				<li class="shop-menu__item">
+					<a href="#" class="shop-menu__link _icon-user" aria-label="Go to cabinet"></a>
+				</li>
+				<li class="shop-menu__item">
+					<button class="shop-menu__link _icon-basket cart" aria-label="Go to cart">
+						<span class="cart__quantity qnt">0</span>
+					</button>
+					<div class="mini-cart">
+						<div class="mini-cart__top">
+							<ul class="mini-cart__list">
+								<!-- <li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/c2-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Dahlia Great Silence</h3>
+												<span class="mini-product__price">22.00&nbsp;$</span>
+											</div>
+											<button class="mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li>
+								<li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/c7-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Physalis Lost Earring</h3>
+												<span class="mini-product__price">13.00&nbsp;$</span>
+											</div>
+											<button class="mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li>
+								<li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/s2-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Blue Poppy</h3>
+												<span class="mini-product__price">12.00&nbsp;$</span>
+											</div>
+											<button class="btn-reset mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li> -->
+							</ul>
+						</div>
+						<div class="mini-cart__bottom">
+							<div class="mini-cart__itog">
+								<span class="mini-cart__txt">Total:</span>
+								<span class="mini-cart__summ">0&nbsp;</span>
+							</div>
+							<button data-modal class="mini-cart__btn">TO CHECKOUT</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="hero">
+				<div class="_container hero__container">
+					<h1 class="visually-hidden">MOM - best shop!</h1>
+					<div class="banner-slider _swiper">
+						<div class="banner-slide">
+							<div class="banner-slide__content">
+								<h2 class="banner-slide__title">Transform your garden into a&nbsp;blossom haven</h2>
+								<p class="banner-slide__descr">that fit for a&nbsp;staycation this summer</p>
+								<img src="img/slider01-01-min.png" class="banner-slide__image banner-slide__image_one"
+									alt="Spring blossom" aria-hidden="true">
+							</div>
+							<div class="veil">
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+							</div>
+						</div>
+						<div class="banner-slide">
+							<div class="banner-slide__content">
+								<h2 class="banner-slide__title _anim-items">
+									Caring for roses with Asya Khalickova</h2>
+								<p class="banner-slide__descr _anim-items">Sophisticated and timeless, the romantic rose
+									is&nbsp;an&nbsp;instantly recognisable flower in&nbsp;the garden</p>
+								<img src="img/slider01-02-min.jpg" class="banner-slide__image banner-slide__image_two"
+									alt="Pions" aria-hidden="true">
+							</div>
+							<div class="veil">
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+							</div>
+						</div>
+						<div class="banner-slide">
+							<div class="banner-slide__content">
+								<h2 class="banner-slide__title">Thank You Flowers</h2>
+								<p class="banner-slide__descr">Need a&nbsp;way to&nbsp;express your gratitude
+									to&nbsp;someone?
+									Choose from any
+									of&nbsp;these stunning <span>thank you flowers</span> show your appreciation and gratefulness
+									to&nbsp;that important person!</p>
+								<img src="img/slider01-03-min.png" class="banner-slide__image banner-slide__image_three"
+									alt="Tulips" aria-hidden="true">
+							</div>
+							<div class="veil">
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+							</div>
+						</div>
+						<div class="banner-slide">
+							<div class="banner-slide__content">
+								<h2 class="banner-slide__title">Bring the&nbsp;fragrance indoors</h2>
+								<p class="banner-slide__descr">Fragrance has the power to&nbsp;unlock memories and
+									transport&nbsp;us back in&nbsp;time</p>
+								<img src="img/slider01-04-min.png" class="banner-slide__image banner-slide__image_four"
+									alt="Orchid" aria-hidden="true">
+							</div>
+							<div class="veil">
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+								<div class="veil__box"></div>
+							</div>
+						</div>
+					</div>
+					<div class="banner-pag"></div>
+					<div class="marketing">
+						<div class="marketing__image">
+							<img src="img/m1-min.jpg" alt="pink rose">
+						</div>
+						<div class="marketing__text">
+							<span class="marketing__descr">Someone purchaed a</span>
+							<h3 class="marketing__title">Pink Rose Day Spa</h3>
+							<span class="marketing__when-from">1 day ago London, Great Britain</span>
+						</div>
+						<button class="marketing__close" aria-label="Close marketing block"></button>
+					</div>
+				</div>
+			</section>
+			<section class="banners">
+				<h2 class="visually-hidden">Banners</h2>
+				<div class="_container banners__container">
+					<ul class="banners__list">
+						<li class="banners__item banners__item_one">
+							<div class="banners__body">
+								<article class="banners__article banners-article banners-article_one">
+									<h3 class="banners-article__title _anim-items _anim-no-hide">20% Off
+										Sitewide</h3>
+									<p class="banners-article__text">
+										Terms &amp;&nbsp;Conditions:
+										20% off with promo code ITS765FF valid through 10/20/2021 11:59PM PDT. Gift cards are
+										excluded from any discounts. Offer cannot be&nbsp;combined with rewards points, other
+										coupon
+										codes or&nbsp;applied to&nbsp;past orders. Conditions may apply.
+									</p>
+									<a href="" class="main-link banners-article__link _anim-items _anim-no-hide">Fast, Easy &
+										Affordable</a>
+								</article>
+								<div class="banners__back">
+									<div class="banners__back-shell">
+										<p class="banners__back-text">
+											Terms &amp;&nbsp;Conditions:
+											20% off with promo code ITS765FF valid through 10/20/2021 11:59PM PDT. Gift cards are
+											excluded from any discounts. Offer cannot be&nbsp;combined with rewards points, other
+											coupon
+											codes or&nbsp;applied to&nbsp;past orders. Conditions may apply.
+										</p>
+										<a href="" class="main-link banners__back-link">Fast, Easy &
+											Affordable</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="banners__item banners__item_two">
+							<div class="banners__body">
+								<article class="banners__article banners-article banners-article_two">
+									<h3 class="banners-article__title _anim-items _anim-no-hide">Summer Romance</h3>
+									<p class="banners-article__text">
+										From You Flowers offers a&nbsp;wide array of&nbsp;sympathy flowers to&nbsp;convey your
+										love. Local florist arranged floral arrangements are a&nbsp;beautiful gift. Each
+										sympathy gift
+										or&nbsp;condolence flower arrangement is&nbsp;delivered with a&nbsp;personalized card
+										message, to&nbsp;send your love.
+									</p>
+									<a href="" class="main-link banners-article__link _anim-items _anim-no-hide">Shop Now</a>
+								</article>
+								<div class="banners__back">
+									<div class="banners__back-shell">
+										<p class=" banners__back-text">
+											From You Flowers offers a&nbsp;wide array of&nbsp;sympathy flowers to&nbsp;convey your
+											love. Local florist arranged floral arrangements are a&nbsp;beautiful gift. Each
+											sympathy gift
+											or&nbsp;condolence flower arrangement is&nbsp;delivered with a&nbsp;personalized card
+											message, to&nbsp;send your love.
+										</p>
+										<a href="" class="main-link banners__back-link">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="banners__item banners__item_three">
+							<div class="banners__body">
+								<article class="banners__article banners-article banners-article_three">
+									<h3 class="banners-article__title _anim-items _anim-no-hide">Same Day Delivery Flowers</h3>
+									<p class="banners-article__text">
+										Send a&nbsp;gift today with same day flowers! From You Flowers offers florist arranged
+										flower arrangements for delivery today. Simply place your order before
+										3:00&nbsp;PM and flowers will arrive in&nbsp;time
+										to&nbsp;celebrate today&rsquo;s special occasion.
+									</p>
+									<a href="" class="main-link banners-article__link _anim-items _anim-no-hide">Need It
+										Today?</a>
+								</article>
+								<div class="banners__back">
+									<div class="banners__back-shell">
+										<p class=" banners__back-text">
+											Send a&nbsp;gift today with same day flowers! From You Flowers offers florist arranged
+											flower arrangements for delivery today. Simply place your order before
+											3:00&nbsp;PM and flowers will arrive in&nbsp;time
+											to&nbsp;celebrate today&rsquo;s special occasion.
+										</p>
+										<a href="" class="main-link banners__back-link">Need It
+											Today?</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="main-products">
+				<h2 class="visually-hidden">Products on Main Page</h2>
+				<div class="_container main-products__container">
+					<div class="main-products__filter-label">Sorted By:</div>
+					<ul class="main-products__nav">
+						<li class="main-products__item">
+							<button class="main-products__btn main-link" data-filter="best-sellers">Best Sellers</button>
+						</li>
+						<li class="main-products__item">
+							<button class="main-products__btn main-link" data-filter="new-products">New Products</button>
+						</li>
+						<li class="main-products__item">
+							<button class="main-products__btn main-link" data-filter="sale-products">Sale Products</button>
+						</li>
+					</ul>
+					<ul class="main-products__list products-grid">
+						<!-- <li class="products-grid__item" data-sort='sale'>
+							<article class="product">
+								<div class="product__image _ibg">
+									<div class="product__ribbon">Sale</div>
+									<img src="img/c4-min.jpg" alt="Muscari">
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Muscari
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$15.00</span>
+										<span class="product__oldprice">$16.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="best">
+							<article class="product">
+								<div class="product__image _ibg">
+									<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+									<img src="img/c5-min.jpg" alt="Dahlia Purple Fox">
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Dahlia Purple Fox
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$22.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="new">
+							<article class="product">
+								<div class="product__image _ibg">
+									<span class="product__new _icon-spa"><span>New</span></span>
+									<img src="img/c9-min.jpg" alt="Lion`s Rose">
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Lion`s Rose
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$26.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="best">
+							<article class="product">
+								<div class="product__image _ibg">
+									<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+									<img src="img/c1-min.jpg" alt="Bird`s Foot Violet">
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Bird`s Foot Violet
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$12.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="new">
+							<article class="product">
+								<div class="product__image _ibg">
+									<span class="product__new _icon-spa"><span>New</span></span>
+									<img src="img/c3-min.jpg" alt="Dahlia Break Out">
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Dahlia Break Out
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$11.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="best">
+							<article class="product">
+								<div class="product__image _ibg">
+									<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+									<img src="img/c2-min.jpg" alt="Dahlia Great Silence">
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Dahlia Great Silence
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$22.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="new">
+							<article class="product">
+								<div class="product__image _ibg">
+									<span class="product__new _icon-spa"><span>New</span></span>
+									<img src="img/c7-min.jpg" alt="Physalis Lost Earring">
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Physalis Lost Earring
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$13.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="best">
+							<article class="product">
+								<div class="product__image _ibg">
+									<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+									<img src="img/c11-min.jpg" alt="Tulip Rembrandt">
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Tulip Rembrandt
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$11.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="sale">
+							<article class="product">
+								<div class="product__image _ibg">
+									<img src="img/c10-min.jpg" alt="Aster Composites Purple">
+									<div class="product__ribbon">Sale</div>
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Aster Composites Purple
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$4.00</span>
+										<span class="product__oldprice">$5.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="products-grid__item" data-sort="sale">
+							<article class="product">
+								<div class="product__image _ibg">
+									<img src="img/c8-min.jpg" alt="Cosmea Cosmos">
+									<div class="product__ribbon">Sale</div>
+								</div>
+								<h3 class="product__title">
+									<a href="#">
+										Cosmea Cosmos
+									</a>
+								</h3>
+								<div class="product-custom">
+									<div class="product-custom__price">
+										<span class="product__price">$6.00</span>
+										<span class="product__oldprice">$9.00</span>
+									</div>
+									<div class="product-custom__cart">
+										<button class="to-cart">Add to cart</button>
+									</div>
+								</div>
+							</article>
+						</li> -->
+					</ul>
+					<div class="main-products__btn-center">
+						<button class="main-products__more _icon-down-arrow">
+							<span>Load More</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="shop-banners">
+				<h2 class="visually-hidden">Banners</h2>
+				<div class="_container-fluid shop-banners__container">
+					<a href="#" class="shop-banners__banner shop-banner shop-banner_one">
+						<h3 class="shop-banner__title _anim-items _anim-no-hide"><span>Are you sure</span> <span>your
+								meadow</span>
+							<span>is&nbsp;a&nbsp;meadow?</span>
+						</h3>
+						<span class="shop-banner__text main-link main-link_white _anim-items _anim-no-hide">Read more</span>
+					</a>
+					<a href="#" class="shop-banners__banner shop-banner shop-banner_two">
+						<h3 class="shop-banner__title shop-banner__title_right _anim-items _anim-no-hide">
+							<span>Campaign&nbsp;2021:</span> <span>Enjoy
+								the&nbsp;Flowers</span>
+							<span>(At&nbsp;Home)</span>
+						</h3>
+						<span class="shop-banner__text main-link main-link_white _anim-items _anim-no-hide">Read more</span>
+					</a>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__content">
+			<div class="footer__top">
+				<div class="footer__column">
+					<h3 class="footer__title">Customer Service</h3>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="tel:+8665972742" class="footer__link">Phone: +866.597.2742</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Live chat</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<h3 class="footer__title">Company</h3>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#" class="footer__link">What We Do</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Available Services</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Latest Posts</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">FAQs</a></li>
+					</ul>
+				</div>
+				<div class="footer__column footer__column_big">
+					<h3 class="footer__title">Our Newsletter</h3>
+
+					<form action="#" class="footer__form form">
+						<h4 class="form__title">Join our list and get 15% off your first purchase!</h4>
+						<div class="form__line">
+							<label for="inp" class="form__label"></label>
+							<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Chech Your Email"
+								data-value="Email Address" class="input _email _req">
+						</div>
+						<button class="form__btn btn" type="submit">Subscribe</button>
+					</form>
+					<span class="footer__text">*Don’t worry we don’t spam</span>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__left">
+					<ul class="footer__list footer__list_row">
+						<li class="footer__item"><a href="#" class="footer__link footer__link_row">Returns
+								Policy</a></li>
+						<li class="footer__item"><a href="#" class="footer__link footer__link_row">Track Your
+								Order</a></li>
+						<li class="footer__item"><a href="#" class="footer__link footer__link_row">Shipping &
+								Delivery</a></li>
+					</ul>
+				</div>
+				<div class="footer__right">
+					<ul class="social footer__social">
+						<li class="social__item"><a href="#" class="social__link _icon-twitter"
+								aria-label="Go to twitter"></a></li>
+						<li class="social__item"><a href="#" class="social__link _icon-facebook"
+								aria-label="Go to facebook"></a></li>
+						<li class="social__item"><a href="#" class="social__link _icon-instagram"
+								aria-label="Go to instagram"></a></li>
+						<li class="social__item"><a href="#" class="social__link _icon-pinterest"
+								aria-label="Go to pinterest"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class=" footer__afterworld afterworld">
+				<div class="afterworld__left">
+					<small class="afterworld__copy">
+						©2021 Mom All rights reserved
+					</small>
+				</div>
+				<ul class="afterworld__right">
+					<li class="afterworld__item">
+						<div class="afterworld__payment _icon-cc-mastercard"></div>
+					</li>
+					<li class="afterworld__item">
+						<div class="afterworld__payment _icon-cc-visa"></div>
+					</li>
+					<li class="afterworld__item">
+						<div class="afterworld__payment _icon-cc-paypal"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<div class="modal">
+	<div class="modal__content">
+		<div class="modal__body">
+			<button data-close class="modal__close" aria-label="Закрыть модальное окно">
+				<svg>
+					<use xlink:href="sprite.svg#close"></use>
+				</svg>
+			</button>
+			<div class="cart-modal__top">
+				<h2 class="cart-modal__title">ORDERING</h2>
+				<span class="cart-modal__order-number"># 8754</span>
+			</div>
+			<div class="cart-modal-order">
+				<div class="cart-modal-order__top">
+					<div class="span cart-modal-order__quantity">Items in the Basket: <span>3 item</span></div>
+					<div class="span cart-modal-order__summ">Total Amount of the Order: <span>1 009 $</span></div>
+				</div>
+				<div class="cart-modal-order__content">
+					<button class="cart-modal-order__show">
+						Order List
+						<svg>
+							<use xlink:href="sprite.svg#angle"></use>
+						</svg>
+					</button>
+					<ul class="cart-modal-order__list">
+						<li class="cart-modal-order__item">
+							<article class="cart-modal-order__product cart-modal-product">
+								<div class="cart-modal-product__image">
+									<img src="img/c8-min.jpg" alt="">
+								</div>
+								<div class="cart-modal-product__content">
+									<div class="cart-modal-product__text">
+										<h3 class="cart-modal-product__title">Cosmea Cosmos</h3>
+										<span class="cart-modal-product__price">9.00</span>
+									</div>
+									<button class="cart-modal-product__delete" aria-label="Удалить товар">
+										Delete
+									</button>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<form action="#" class="cart-modal__form form-modal">
+				<div class="form-modal__line">
+					<label for="client-name" class="form-modal__label"></label>
+					<input id="client-name" autocomplete="off" type="text" name="form[]" data-error="Enter Your Name"
+						data-value="Your Name" class="input form-modal__input _req">
+				</div>
+				<div class="form-modal__line">
+					<label for="client-phone" class="form-modal__label"></label>
+					<input id="client-phone" autocomplete="off" type="text" name="form[]" data-error=""
+						data-value="+1 (_ _) _ _ - _ _ - _ _" class="input form-modal__input _phone _req">
+				</div>
+				<div class="form-modal__line">
+					<label for="client-email" class="form-modal__label"></label>
+					<input id="client-email" autocomplete="off" type="text" name="form[]" data-error="Chech Your Email"
+						data-value="Email Address" class="input form-modal__input _email _req">
+				</div>
+				<button type="submit" class="form-modal__btn btn_order cart-modal__btn">CHECKOUT</button>
+			</form>
+		</div>
+	</div>
+</div>
+	<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>

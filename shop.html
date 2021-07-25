@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shop</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper wrapper_narrow">
+		<header class="header">
+	<div class="_container header__container">
+		<div class="header__search">
+			<form class="search-form">
+				<label class="search-form__label">
+					<input class="search-form__input" type="text" placeholder="Enter Your Search Term">
+				</label>
+				<button class="search-form__btn" type="submit">
+					<span class="_icon-search"></span>
+					<span class="_icon-close"></span>
+				</button>
+			</form>
+		</div>
+		<nav class="header__menu menu">
+			<button class="menu__icon">
+				<span></span>
+			</button>
+			<div class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="index.html"
+							class="main-link menu__link ">Home</a>
+					</li>
+					<li class="menu__item"><a href="shop.html" target="_blank"
+							class="main-link menu__link menu__link_current">Shop</a>
+					</li>
+					<li class="menu__item"><a href="card.html" target="_blank"
+							class="main-link menu__link ">Products</a>
+					</li>
+					<li class="menu__item"><a href="#"
+							class="main-link menu__link ">Blog</a>
+					</li>
+					<li class="menu__item"><a href="#"
+							class="main-link menu__link ">Sale</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<a href="index.html" class="logo header__logo" aria-label="logo">
+			<img src="img/logo-mom.svg" alt="logo icon">
+		</a>
+		<div class="header__right">
+			<ul data-da=".menu__body,479.98,0" class="header__opts opts">
+				<li class="opts__item">
+					<span class="opts__caption">Language</span>
+					<div class="custom-select custom-select--header" tabindex="0">
+						<div class="custom-select__top _icon-chevron-down">EN</div>
+						<div class="custom-select__dropdown">
+							<ul class="custom-select__list">
+								<li class="custom-select__item">DE</li>
+								<li class="custom-select__item">IT</li>
+								<li class="custom-select__item">RU</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="opts__item">
+					<span class="opts__caption">Currency</span>
+					<div class="custom-select custom-select--header" tabindex="0">
+						<div class="custom-select__top _icon-chevron-down">USD</div>
+						<div class="custom-select__dropdown">
+							<ul class="custom-select__list">
+								<li class="custom-select__item">USD</li>
+								<li class="custom-select__item">EUR</li>
+								<li class="custom-select__item">RUB</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="header__shop-menu shop-menu">
+				<li class="shop-menu__item">
+					<button class="search-form__btn" aria-label="Find">
+						<span class="_icon-search lens"></span>
+					</button>
+				</li>
+				<li class="shop-menu__item">
+					<a href="#" class="shop-menu__link _icon-user" aria-label="Go to cabinet"></a>
+				</li>
+				<li class="shop-menu__item">
+					<button class="shop-menu__link _icon-basket cart" aria-label="Go to cart">
+						<span class="cart__quantity qnt">0</span>
+					</button>
+					<div class="mini-cart">
+						<div class="mini-cart__top">
+							<ul class="mini-cart__list">
+								<!-- <li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/c2-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Dahlia Great Silence</h3>
+												<span class="mini-product__price">22.00&nbsp;$</span>
+											</div>
+											<button class="mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li>
+								<li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/c7-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Physalis Lost Earring</h3>
+												<span class="mini-product__price">13.00&nbsp;$</span>
+											</div>
+											<button class="mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li>
+								<li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/s2-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Blue Poppy</h3>
+												<span class="mini-product__price">12.00&nbsp;$</span>
+											</div>
+											<button class="btn-reset mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li> -->
+							</ul>
+						</div>
+						<div class="mini-cart__bottom">
+							<div class="mini-cart__itog">
+								<span class="mini-cart__txt">Total:</span>
+								<span class="mini-cart__summ">0&nbsp;</span>
+							</div>
+							<button data-modal class="mini-cart__btn">TO CHECKOUT</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<div class="hero-catalog">
+				<div class="_container-narrow hero-catalog__container">
+					<div class="hero-catalog__cape">
+						<div class="hero-catalog__slider _swiper">
+							<div class="catalog-slide catalog-slide--one">
+								<div class="catalog-slide__title">
+									<div class="catalog-slide__word">
+										<span>C</span>
+										<span>O</span>
+										<span>L</span>
+										<span>O</span>
+										<span>R</span>
+									</div>
+									<div class="catalog-slide__word">
+										<div class="catalog-slide__word">
+											<span>O</span>
+											<span>F</span>
+										</div>
+									</div>
+									<div class="catalog-slide__word">
+										<span>S</span>
+										<span>P</span>
+										<span>R</span>
+										<span>I</span>
+										<span>N</span>
+										<span>G</span>
+									</div>
+								</div>
+								<div class="catalog-slide__btns">
+									<a href="#" class="catalog-slide__link catalog-slide__link_dark">Discovery</a>
+									<a href="#" class="catalog-slide__link catalog-slide__link_light">Shop now</a>
+								</div>
+								<div class="catalog-slide__image _ibg">
+									<img src="img/g2-min.jpg" alt="gerbera on banner">
+								</div>
+							</div>
+							<div class="catalog-slide catalog-slide--two">
+								<div class="catalog-slide__title">
+									<div class="catalog-slide__word catalog-slide__word--two">
+										<span>W</span>
+										<span>H</span>
+										<span>Y</span>
+									</div>
+									<div class="catalog-slide__word catalog-slide__word--two">
+										<span>W</span>
+										<span>I</span>
+										<span>T</span>
+										<span>H</span>
+									</div>
+									<div class="catalog-slide__word catalog-slide__word--two">
+										<span>M</span>
+										<span>O</span>
+										<span>M</span>
+										<span>?</span>
+									</div>
+								</div>
+								<div class="catalog-slide__btns">
+									<a href="#" class="catalog-slide__link catalog-slide__link_dark">Discovery</a>
+									<a href="#" class="catalog-slide__link catalog-slide__link_light">Shop now</a>
+								</div>
+								<div class="catalog-slide__image _ibg">
+									<img src="img/lilacs-min.jpg" alt="gerbera on banner">
+								</div>
+							</div>
+						</div>
+						<button class="hero-btn hero-btn--prev _icon-prev-arrow">
+						</button>
+						<button class="hero-btn hero-btn--next _icon-next-arrow">
+						</button>
+					</div>
+					<div class="hero-pag"></div>
+				</div>
+			</div>
+			<section class="catalog">
+				<h2 class="visually-hidden">Catalog</h2>
+				<div class="breadcrumbs">
+					<div class="_container _container-narrow">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Home</a></li>
+							<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Shop</a></li>
+							<li class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumbs__link--current">New
+									Arrivals</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-content">
+					<div class="_container _container-narrow catalog-container">
+						<div class="catalog-filters">
+							<button class="hide-filters _icon-close">Shut Filters</button>
+							<div class="catalog-filter catalog-filter--open">
+								<div class="catalog-filter__top">
+									<div class="catalog-filter__caption">
+										<h3 class="catalog-filter__title">Categories</h3>
+										<span class="catalog-filter__quantity qnt">0</span>
+									</div>
+									<span class="catalog-filter__toggle"></span>
+								</div>
+								<div class="catalog-filter__bottom">
+									<ul class="catalog-filter__items">
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="All categories">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">All categories</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Annuals">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Annuals</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Perennials">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Perennials</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Biennials">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Biennials</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Heat-loving">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Heat-loving</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Bushes">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Bushes</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Frost-resistant">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Frost-resistant</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Indoors">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Indoors</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Non-flowering">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Non-flowering</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Outdoors">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Outdoors</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog-filter">
+								<div class="catalog-filter__top">
+									<div class="catalog-filter__caption">
+										<h3 class="catalog-filter__title">Color</h3>
+										<span class="catalog-filter__quantity qnt">0</span>
+									</div>
+									<span class="catalog-filter__toggle"></span>
+								</div>
+								<div class="catalog-filter__bottom">
+									<ul class="catalog-filter__items">
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="All categories">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">All categories</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="White">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">White</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Yellow">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Yellow</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Pink">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Pink</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Orange">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Orange</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Red">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Red</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Purple">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Purple</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Violet">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Violet</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Multicolor">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Multicolor</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Blue">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Blue</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog-filter">
+								<div class="catalog-filter__top">
+									<div class="catalog-filter__caption">
+										<h3 class="catalog-filter__title">Bulbs</h3>
+										<span class="catalog-filter__quantity qnt">0</span>
+									</div>
+									<span class="catalog-filter__toggle"></span>
+								</div>
+								<div class="catalog-filter__bottom">
+									<ul class="catalog-filter__items">
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="All categories">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">All categories</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Tubers">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Tubers</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Real bulbs">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Real bulbs</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Rhizomes">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Rhizomes</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Root cones">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Root cones</span>
+											</label>
+										</li>
+										<li class="catalog-filter__item">
+											<label class="checkbox" data-text="Rootless">
+												<input type="checkbox" class="checkbox__input visually-hidden">
+												<span class="checkbox__text">Rootless</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="catalog-grid">
+							<div class="catalog-grid__props catalog-props">
+								<div class="catalog-props__top">
+									<button class="catalog-mobile-filters _icon-filter">
+										<span>filters</span>
+									</button>
+									<div class="catalog-props__columns catalog-columns">
+										<span class="catalog-columns__text">Column number:</span>
+										<ul class="catalog-columns__list">
+											<li class="catalog-columns__item"><button class="main-link catalog-columns__btn"
+													data-columns="3">3</button></li>
+											<li class="catalog-columns__item"><button
+													class="main-link catalog-columns__btn catalog-columns__btn--current"
+													data-columns="4">4</button></li>
+											<li class="catalog-columns__item"><button class="main-link catalog-columns__btn"
+													data-columns="5">5</button></li>
+										</ul>
+									</div>
+									<div class="custom-select" tabindex="0">
+										<div class="custom-select__top">Sort by:</div>
+										<div class="custom-select__dropdown">
+											<ul class="custom-select__list">
+												<li class="custom-select__item">Sort by Price</li>
+												<li class="custom-select__item">Latest </li>
+												<li class="custom-select__item">On Sale</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog-props__choice catalog-choice">
+									<button class="catalog-choice__clear">Clear all</button>
+								</div>
+							</div>
+							<ul class="catalog-grid__content" data-grid-columns="4">
+								<li class="catalog-grid__item">
+									<article class="product">
+										<div class="product__image _ibg">
+											<div class="product__ribbon">Sale</div>
+											<img src="img/s1-min.jpg" alt="Royal Rose">
+										</div>
+										<h3 class="product__title">
+											<a href="#">
+												Royal Rose
+											</a>
+										</h3>
+										<div class="product-custom">
+											<div class="product-custom__price">
+												<span class="product__price">$15.00</span>
+												<span class="product__oldprice">$16.00</span>
+											</div>
+											<div class="product-custom__cart">
+												<button class="to-cart">Add to cart</button>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="catalog-grid__item">
+									<article class="product">
+										<div class="product__image _ibg">
+											<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+											<img src="img/s2-min.jpg" alt="Blue Poppy">
+										</div>
+										<h3 class="product__title">
+											<a href="#">
+												Blue Poppy
+											</a>
+										</h3>
+										<div class="product-custom">
+											<div class="product-custom__price">
+												<span class="product__price">$12.00</span>
+											</div>
+											<div class="product-custom__cart">
+												<button class="to-cart">Add to cart</button>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="catalog-grid__item">
+									<article class="product">
+										<div class="product__image _ibg">
+											<span class="product__new _icon-spa"><span>New</span></span>
+											<img src="img/s3-min.jpg" alt="Allium">
+										</div>
+										<h3 class="product__title">
+											<a href="#">
+												Allium
+											</a>
+										</h3>
+										<div class="product-custom">
+											<div class="product-custom__price">
+												<span class="product__price">$7.00</span>
+											</div>
+											<div class="product-custom__cart">
+												<button class="to-cart">Add to cart</button>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="catalog-grid__item">
+									<article class="product">
+										<div class="product__image _ibg">
+											<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+											<img src="img/s4-min.jpg" alt="Rose Arizona">
+										</div>
+										<h3 class="product__title">
+											<a href="#">
+												Rose Arizona
+											</a>
+										</h3>
+										<div class="product-custom">
+											<div class="product-custom__price">
+												<span class="product__price">$12.00</span>
+											</div>
+											<div class="product-custom__cart">
+												<button class="to-cart">Add to cart</button>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="catalog-grid__item">
+									<article class="product">
+										<div class="product__image _ibg">
+											<span class="product__new _icon-spa"><span>New</span></span>
+											<img src="img/s5-min.jpg" alt="Asiatic Lily">
+										</div>
+										<h3 class="product__title">
+											<a href="#">
+												Asiatic Lily
+											</a>
+										</h3>
+										<div class="product-custom">
+											<div class="product-custom__price">
+												<span class="product__price">$11.00</span>
+											</div>
+											<div class="product-custom__cart">
+												<button class="to-cart">Add to cart</button>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="catalog-grid__item">
+									<article class="product">
+										<div class="product__image _ibg">
+											<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+											<img src="img/s6-min.jpg" alt="Rose Topaz">
+										</div>
+										<h3 class="product__title">
+											<a href="#">
+												Rose Topaz
+											</a>
+										</h3>
+										<div class="product-custom">
+											<div class="product-custom__price">
+												<span class="product__price">$22.00</span>
+											</div>
+											<div class="product-custom__cart">
+												<button class="to-cart">Add to cart</button>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="catalog-grid__item">
+									<article class="product">
+										<div class="product__image _ibg">
+											<span class="product__new _icon-spa"><span>New</span></span>
+											<img src="img/s7-min.jpg" alt="Lily Absolute">
+										</div>
+										<h3 class="product__title">
+											<a href="#">
+												Lily Absolute
+											</a>
+										</h3>
+										<div class="product-custom">
+											<div class="product-custom__price">
+												<span class="product__price">$13.00</span>
+											</div>
+											<div class="product-custom__cart">
+												<button class="to-cart">Add to cart</button>
+											</div>
+										</div>
+									</article>
+								</li>
+								<li class="catalog-grid__item">
+									<article class="product">
+										<div class="product__image _ibg">
+											<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+											<img src="img/s9-min.jpg" alt="Tulip Columbus">
+										</div>
+										<h3 class="product__title">
+											<a href="#">
+												Tulip Columbus
+											</a>
+										</h3>
+										<div class="product-custom">
+											<div class="product-custom__price">
+												<span class="product__price">$11.00</span>
+											</div>
+											<div class="product-custom__cart">
+												<button class="to-cart">Add to cart</button>
+											</div>
+										</div>
+									</article>
+								</li>
+							</ul>
+							<ul class="pagination">
+								<li class="pagination__item"><a href="#"
+										class="pagination__link pagination__link--current">1</a>
+								</li>
+								<li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
+								<li class="pagination__item"><a href="#" class="pagination__link">3</a></li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">
+										Next
+										<svg>
+											<use xlink:href="sprite.svg#angle"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class=" footer footer--narrow">
+	<div class="footer__container _container-narrow">
+		<div class="footer__top">
+			<div class="footer__column">
+				<h3 class="footer__title">Customer Service</h3>
+				<ul class="footer__list">
+					<li class="footer__item"><a href="tel:+8665972742" class="footer__link">Phone: +866.597.2742</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Live chat</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+				</ul>
+			</div>
+			<div class="footer__column">
+				<h3 class="footer__title">Company</h3>
+				<ul class="footer__list">
+					<li class="footer__item"><a href="tel:+8665972742" class="footer__link">What We Do</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Available Services</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">Latest Posts</a></li>
+					<li class="footer__item"><a href="#" class="footer__link">FAQs</a></li>
+				</ul>
+			</div>
+			<div class="footer__column footer__column_big">
+				<h3 class="footer__title">Our Newsletter</h3>
+
+				<form action="#" class="footer__form form">
+					<h4 class="form__title">Join our list and get 15% off your first purchase!</h4>
+					<div class="form__line">
+						<label for="inp" class="form__label"></label>
+						<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Chech Your Email"
+							data-value="Email Address" class="input _email _req">
+					</div>
+					<button class="form__btn btn" type="submit">Subscribe</button>
+				</form>
+				<span class="footer__text">*Don’t worry we don’t spam</span>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__left">
+				<ul class="footer__list footer__list_row">
+					<li class="footer__item"><a href="#" class="footer__link footer__link_row">Returns
+							Policy</a></li>
+					<li class="footer__item"><a href="#" class="footer__link footer__link_row">Track Your
+							Order</a></li>
+					<li class="footer__item"><a href="#" class="footer__link footer__link_row">Shipping &
+							Delivery</a></li>
+				</ul>
+			</div>
+			<div class="footer__right">
+				<ul class="social footer__social">
+					<li class="social__item"><a href="#" class="social__link _icon-twitter" aria-label="Go to twitter"></a>
+					</li>
+					<li class="social__item"><a href="#" class="social__link _icon-facebook" aria-label="Go to facebook"></a>
+					</li>
+					<li class="social__item"><a href="#" class="social__link _icon-instagram"
+							aria-label="Go to instagram"></a></li>
+					<li class="social__item"><a href="#" class="social__link _icon-pinterest"
+							aria-label="Go to pinterest"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class=" footer__afterworld afterworld">
+			<div class="afterworld__left">
+				<small class="afterworld__copy">
+					©2021 Mom All rights reserved
+				</small>
+			</div>
+			<ul class="afterworld__right">
+				<li class="afterworld__item">
+					<div class="afterworld__payment _icon-cc-mastercard"></div>
+				</li>
+				<li class="afterworld__item">
+					<div class="afterworld__payment _icon-cc-visa"></div>
+				</li>
+				<li class="afterworld__item">
+					<div class="afterworld__payment _icon-cc-paypal"></div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+		<a href="#" class="to-top _icon-to-top">
+		</a>
+	</div>
+	<div class="modal">
+	<div class="modal__content">
+		<div class="modal__body">
+			<button data-close class="modal__close" aria-label="Закрыть модальное окно">
+				<svg>
+					<use xlink:href="sprite.svg#close"></use>
+				</svg>
+			</button>
+			<div class="cart-modal__top">
+				<h2 class="cart-modal__title">ORDERING</h2>
+				<span class="cart-modal__order-number"># 8754</span>
+			</div>
+			<div class="cart-modal-order">
+				<div class="cart-modal-order__top">
+					<div class="span cart-modal-order__quantity">Items in the Basket: <span>3 item</span></div>
+					<div class="span cart-modal-order__summ">Total Amount of the Order: <span>1 009 $</span></div>
+				</div>
+				<div class="cart-modal-order__content">
+					<button class="cart-modal-order__show">
+						Order List
+						<svg>
+							<use xlink:href="sprite.svg#angle"></use>
+						</svg>
+					</button>
+					<ul class="cart-modal-order__list">
+						<li class="cart-modal-order__item">
+							<article class="cart-modal-order__product cart-modal-product">
+								<div class="cart-modal-product__image">
+									<img src="img/c8-min.jpg" alt="">
+								</div>
+								<div class="cart-modal-product__content">
+									<div class="cart-modal-product__text">
+										<h3 class="cart-modal-product__title">Cosmea Cosmos</h3>
+										<span class="cart-modal-product__price">9.00</span>
+									</div>
+									<button class="cart-modal-product__delete" aria-label="Удалить товар">
+										Delete
+									</button>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<form action="#" class="cart-modal__form form-modal">
+				<div class="form-modal__line">
+					<label for="client-name" class="form-modal__label"></label>
+					<input id="client-name" autocomplete="off" type="text" name="form[]" data-error="Enter Your Name"
+						data-value="Your Name" class="input form-modal__input _req">
+				</div>
+				<div class="form-modal__line">
+					<label for="client-phone" class="form-modal__label"></label>
+					<input id="client-phone" autocomplete="off" type="text" name="form[]" data-error=""
+						data-value="+1 (_ _) _ _ - _ _ - _ _" class="input form-modal__input _phone _req">
+				</div>
+				<div class="form-modal__line">
+					<label for="client-email" class="form-modal__label"></label>
+					<input id="client-email" autocomplete="off" type="text" name="form[]" data-error="Chech Your Email"
+						data-value="Email Address" class="input form-modal__input _email _req">
+				</div>
+				<button type="submit" class="form-modal__btn btn_order cart-modal__btn">CHECKOUT</button>
+			</form>
+		</div>
+	</div>
+</div>
+	<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Card</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="card-page">
+	<div class="wrapper wrapper_narrow">
+		<header class="header">
+	<div class="_container header__container">
+		<div class="header__search">
+			<form class="search-form">
+				<label class="search-form__label">
+					<input class="search-form__input" type="text" placeholder="Enter Your Search Term">
+				</label>
+				<button class="search-form__btn" type="submit">
+					<span class="_icon-search"></span>
+					<span class="_icon-close"></span>
+				</button>
+			</form>
+		</div>
+		<nav class="header__menu menu">
+			<button class="menu__icon">
+				<span></span>
+			</button>
+			<div class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="index.html"
+							class="main-link menu__link ">Home</a>
+					</li>
+					<li class="menu__item"><a href="shop.html" target="_blank"
+							class="main-link menu__link ">Shop</a>
+					</li>
+					<li class="menu__item"><a href="card.html" target="_blank"
+							class="main-link menu__link menu__link_current">Products</a>
+					</li>
+					<li class="menu__item"><a href="#"
+							class="main-link menu__link ">Blog</a>
+					</li>
+					<li class="menu__item"><a href="#"
+							class="main-link menu__link ">Sale</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<a href="index.html" class="logo header__logo" aria-label="logo">
+			<img src="img/logo-mom.svg" alt="logo icon">
+		</a>
+		<div class="header__right">
+			<ul data-da=".menu__body,479.98,0" class="header__opts opts">
+				<li class="opts__item">
+					<span class="opts__caption">Language</span>
+					<div class="custom-select custom-select--header" tabindex="0">
+						<div class="custom-select__top _icon-chevron-down">EN</div>
+						<div class="custom-select__dropdown">
+							<ul class="custom-select__list">
+								<li class="custom-select__item">DE</li>
+								<li class="custom-select__item">IT</li>
+								<li class="custom-select__item">RU</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="opts__item">
+					<span class="opts__caption">Currency</span>
+					<div class="custom-select custom-select--header" tabindex="0">
+						<div class="custom-select__top _icon-chevron-down">USD</div>
+						<div class="custom-select__dropdown">
+							<ul class="custom-select__list">
+								<li class="custom-select__item">USD</li>
+								<li class="custom-select__item">EUR</li>
+								<li class="custom-select__item">RUB</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="header__shop-menu shop-menu">
+				<li class="shop-menu__item">
+					<button class="search-form__btn" aria-label="Find">
+						<span class="_icon-search lens"></span>
+					</button>
+				</li>
+				<li class="shop-menu__item">
+					<a href="#" class="shop-menu__link _icon-user" aria-label="Go to cabinet"></a>
+				</li>
+				<li class="shop-menu__item">
+					<button class="shop-menu__link _icon-basket cart" aria-label="Go to cart">
+						<span class="cart__quantity qnt">0</span>
+					</button>
+					<div class="mini-cart">
+						<div class="mini-cart__top">
+							<ul class="mini-cart__list">
+								<!-- <li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/c2-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Dahlia Great Silence</h3>
+												<span class="mini-product__price">22.00&nbsp;$</span>
+											</div>
+											<button class="mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li>
+								<li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/c7-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Physalis Lost Earring</h3>
+												<span class="mini-product__price">13.00&nbsp;$</span>
+											</div>
+											<button class="mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li>
+								<li class="mini-cart__item">
+									<article class="mini-cart__product mini-product">
+										<div class="mini-product__image">
+											<img src="img/s2-min.jpg" alt="">
+										</div>
+										<div class="mini-product__content">
+											<div class="mini-product__text">
+												<h3 class="mini-product__title">Blue Poppy</h3>
+												<span class="mini-product__price">12.00&nbsp;$</span>
+											</div>
+											<button class="btn-reset mini-product__delete" aria-label="Удалить товар">
+												<svg>
+													<use xlink:href="sprite.svg#trash"></use>
+												</svg>
+											</button>
+										</div>
+									</article>
+								</li> -->
+							</ul>
+						</div>
+						<div class="mini-cart__bottom">
+							<div class="mini-cart__itog">
+								<span class="mini-cart__txt">Total:</span>
+								<span class="mini-cart__summ">0&nbsp;</span>
+							</div>
+							<button data-modal class="mini-cart__btn">TO CHECKOUT</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="card">
+				<h2 class="visually-hidden">Product card</h2>
+				<div class="breadcrumbs">
+					<div class="_container-narrow">
+						<div class="breadcrumbs__wrapper">
+							<ul class="breadcrumbs__list breadcrumbs__list_card">
+								<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Products</a></li>
+								<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Perennials</a></li>
+								<li class="breadcrumbs__item"><a class="breadcrumbs__link">Heat-loving</a>
+								</li>
+								<li class="breadcrumbs__item"><a href="#"
+										class="breadcrumbs__link breadcrumbs__link--current">Roses</a>
+								</li>
+							</ul>
+							<div class="card__navig">
+								<a href="#" class="card-prev">Prev</a>
+								<a href="#" class="card-next">Next</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-content">
+					<div class="card-content__top">
+						<div class="card-top">
+							<div class="_container-narrow card-top__container">
+								<div class="card-top__left">
+									<div class="card-slider">
+										<div class="card-slider__thumbs">
+											<div class="card-slider__thumb _ibg">
+												<img src="img/r2-min.jpg" alt="">
+											</div>
+											<div class="card-slider__thumb _ibg">
+												<img src="img/r3-min.jpg" alt="">
+											</div>
+											<div class="card-slider__thumb _ibg">
+												<img src="img/r4-min.jpg" alt="">
+											</div>
+											<div class="card-slider__thumb _ibg">
+												<img src="img/r5-min.jpg" alt="">
+											</div>
+											<div class="card-slider__thumb _ibg">
+												<img src="img/r6-min.jpg" alt="">
+											</div>
+										</div>
+										<div class="card-slider__main _ibg">
+											<img src="img/r4-min.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="card-top__right">
+									<div class="card-info">
+										<div class="card-info__cape">
+											<span class="card-info__best _icon-certificate"><span>Best Seller</span></span>
+											<h3 class="card-info__title">Rose grade Laetitia Casta</h3>
+										</div>
+										<div class="card-info__rate">
+											<form class="form-rating">
+												<div class="form-rating__item">
+													<div class="rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" name="rating" value="1">
+																<input type="radio" class="rating__item" name="rating" value="2">
+																<input type="radio" class="rating__item" name="rating" value="3">
+																<input type="radio" class="rating__item" name="rating" value="4">
+																<input type="radio" class="rating__item" name="rating" value="5">
+															</div>
+														</div>
+
+														<div class="rating__value">4.6</div>
+														<span class="rating__assembl">12 Reviews</span>
+													</div>
+												</div>
+												<button type="submit" class="form-rating__btn btn">Send</button>
+											</form>
+
+
+										</div>
+										<div class="card-info__price info-price">
+											<div class="info-price__current">$15.00</div>
+											<div class="info-price__old">$17.00</div>
+										</div>
+										<p class="card-info__descr">
+											All we know is that the rose is a symbol of beauty, of peace and of nature's bounty.
+											These are invented or hybridized roses bred by professionals.
+										</p>
+										<div class="card-info__select card-info__first-select color-select">
+											<p class="color-select__selected">Color: <span>Pink</span></p>
+											<ul class="color-select__list">
+												<li class="color-select__item">
+													<button class="color-select__btn" data-color="red" aria-label="Choice red color"
+														style="background-color: #db0139;">
+													</button>
+												</li>
+												<li class="color-select__item">
+													<button class="color-select__btn" data-color="orange"
+														aria-label="Choice orange color" style="background-color:#ffbc30;">
+													</button>
+												</li>
+												<li class="color-select__item">
+													<button class="color-select__btn" data-color="blue"
+														aria-label="Choice green color" style="background-color: #94cff3;">
+													</button>
+												</li>
+												<li class="color-select__item">
+													<button class="color-select__btn" data-color="white"
+														aria-label="Choice white color" style="background-color: white;">
+													</button>
+												</li>
+												<li class="color-select__item">
+													<button class="color-select__btn" data-color="orange"
+														aria-label="Choice black color" style="background-color: #ff4a3f;">
+													</button>
+												</li>
+												<li class="color-select__item">
+													<button class="color-select__btn color-select__btn--active" data-color="pink"
+														aria-label="Choice brown color" style="background-color: #eb76b0;">
+													</button>
+												</li>
+												<li class="color-select__item">
+													<button class="color-select__btn" data-color="purple"
+														aria-label="Choice purple color" style="background-color: purple;">
+													</button>
+												</li>
+												<li class="color-select__item">
+													<button class="color-select__btn" data-color="lilac"
+														aria-label="Choice grey color" style="background-color: #e1b4f5;">
+													</button>
+												</li>
+											</ul>
+										</div>
+										<div class="card-info__select size-select card-info__second-select">
+											<p class="size-select__selected">size: <span>Select bud`s size (inches)</span></p>
+											<ul class="size-select__list">
+												<li class="size-select__item">
+													<button class="size-select__btn" aria-label="Choice 1 size">1</button>
+												</li>
+												<li class="size-select__item">
+													<button class="size-select__btn" aria-label="Choice 2 size">2</button>
+												</li>
+												<li class="size-select__item">
+													<button class="size-select__btn" aria-label="Choice 3 size">3</button>
+												</li>
+												<li class="size-select__item">
+													<button class="size-select__btn" aria-label="Choice 4 size">4</button>
+												</li>
+												<li class="size-select__item">
+													<button class="size-select__btn" aria-label="Choice 5 size">5</button>
+												</li>
+												<li class="size-select__item">
+													<button class="size-select__btn" aria-label="Choice 6 size">6</button>
+												</li>
+												<li class="size-select__item">
+													<button class="size-select__btn" aria-label="Choice 7 size">7</button>
+												</li>
+											</ul>
+											<button class="size-select__clear">
+												<img src="img/icons/close-red.svg" alt="">
+												clear
+											</button>
+										</div>
+										<div class="card-info__stepper stepper">
+											<button class="stepper__btn stepper__btn--minus stepper__btn--disabled"
+												aria-label="minus">
+												<img src="img/minus.svg" alt="">
+											</button>
+											<input type="text" class="stepper__input" value="1" maxlength="5">
+											<button class="stepper__btn stepper__btn--plus" aria-label="plus">
+												<img src="img/plus.svg" alt="">
+											</button>
+										</div>
+										<div class="card-info__btns">
+											<button class="card-info__btn card-info__btn--tocart">
+												Add to cart
+											</button>
+											<button class="card-info__btn card-info__btn--towishlist">
+												Add to wishlist
+											</button>
+										</div>
+										<div class="card-info__bottom card-bottom">
+											<div class="card-bottom__item">
+												<span>Sku:</span>
+												FW511
+											</div>
+											<div class="card-bottom__item">
+												<span>Category:</span>
+												<a href="#">Perennials,</a>
+												<a href="#">Roses</a>
+											</div>
+											<div class="card-bottom__item">
+												<span>Tags:</span>
+												<a href="#">Rose,</a>
+												<a href="#">heat-loving</a>
+											</div>
+											<div class="card-bottom__social">
+												<span>Share:</span>
+												<ul class="social">
+													<li class="social__item">
+														<a href="#" class="social__link _icon-twitter" aria-label="Go to twitter"></a>
+													</li>
+													<li class="social__item">
+														<a href="#" class="social__link _icon-facebook"
+															aria-label="Go to facebook"></a>
+													</li>
+													<li class="social__item">
+														<a href="#" class="social__link _icon-instagram"
+															aria-label="Go to instagram"></a>
+													</li>
+													<li class="social__item">
+														<a href="#" class="social__link _icon-pinterest"
+															aria-label="Go to pinterest"></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-content__bottom">
+							<div class="card-bottom__container _container-narrow">
+								<div class="card-description">
+									<div class="card-description__left">
+										<ul class="card-description__navigation" data-bar>
+											<li class="card-description__item">
+												<a href="#one" class="card-description__link card-description__link--active">New
+													Flower Winners for 2020</a>
+											</li>
+											<li class="card-description__item">
+												<a href="#two" class="card-description__link">Gardening Trends for 2021</a>
+											</li>
+											<li class="card-description__item">
+												<a href="#three" class="card-description__link">Valentine Flowers and other
+													February Gardening Tips</a>
+											</li>
+											<li class="card-description__item">
+												<a href="#four" class="card-description__link">Holiday Plants--Kalanchoe</a>
+											</li>
+											<li class="card-description__item">
+												<a href="#five" class="card-description__link">Plants of&nbsp;the Winter
+													Solstice</a>
+											</li>
+										</ul>
+									</div>
+									<div class="card-description__right">
+										<div class="card-description__content card-description__content--active"
+											data-target="#one">
+											<p>Each year the best of&nbsp;the new annual flowers (those
+												that only live for one
+												year) are judged, and the winners given the All-America Selections (AAS)
+												designation. This year&rsquo;s annual flower winners, grown from seeds, include
+												a&nbsp;wax-leaf begonia, an&nbsp;American marigold, a&nbsp;nasturtium, and
+												a&nbsp;new Wave petunia.
+											</p>
+											<p>Begonia Viking XL&nbsp;Red on&nbsp;Chocolate
+												is&nbsp;a&nbsp;wax leaf begonia,
+												with large dark bronze (hence the &laquo;chocolate&raquo; name) leaves and red
+												flowers through the summer. Under good conditions it&nbsp;can form a&nbsp;mound
+												30&nbsp;inches or&nbsp;so&nbsp;high and wide, so&nbsp;space plants apart about
+												this distance. Or, it&nbsp;can be&nbsp;grown in&nbsp;a&nbsp;large container. The
+												main feature of&nbsp;this begonia is&nbsp;its glossy dark foliage through the
+												season, which is&nbsp;darker than similar begonias. Plants bloom best
+												in&nbsp;full to&nbsp;part sun.</p>
+											<p>Big Duck Gold is&nbsp;a&nbsp;new marigold&mdash;the type
+												often called African,
+												American, Mexican (from where this type was originally found), or&nbsp;Aztec
+												marigold. The three-inch wide gold flowers are held on&nbsp;top of&nbsp;the
+												compact, 15-inch plants through the season&mdash;longer than comparable
+												marigolds. Leaves are a&nbsp;nice, deep green. Similar to&nbsp;other marigolds,
+												and most annual flowers, this one needs full sun to&nbsp;grow and bloom best.
+												Space plants 15&nbsp;to&nbsp;18&nbsp;inches apart, and use them
+												as&nbsp;a&nbsp;mini hedge along walks, massed in&nbsp;beds, mixed in&nbsp;with
+												perennials for color all summer, or&nbsp;in&nbsp;containers.</p>
+											<p>Baby Rose is&nbsp;a&nbsp;new nasturtium&mdash;the first
+												All-America Selections
+												winner of&nbsp;this flower since the 1930s. Some nasturtiums are trailing and
+												vining, but most are compact and mounding, such as&nbsp;this one. Space plants
+												about 18&nbsp;inches apart, in&nbsp;full to&nbsp;part sun.</p>
+											<p>Their rose-colored flowers are a&nbsp;less common color for
+												nasturtiums. Flowers
+												bloom all summer and, unlike many nasturtiums, don&rsquo;t hide among the dark
+												green leaves but are seen above them. This selection tolerates heat to&nbsp;cold,
+												rain to&nbsp;drought, and wind. An&nbsp;added bonus, similar to&nbsp;other
+												nasturtiums, are the edible leaves and flowers (great in&nbsp;salads). Baby Rose
+												would be&nbsp;a&nbsp;good choice for small spaces and containers.</p>
+										</div>
+										<div class="card-description__content" data-target="#two">
+											<p>
+												Each year for about the past couple decades, experts from
+												the Garden Media Group
+												(www.gardenmediagroup.com)&mdash; a&nbsp;marketing firm for the home and garden
+												industry&mdash; identify key gardening trends for the coming season. For 2019
+												they&rsquo;ve pegged eight of&nbsp;these, based around the overall theme
+												of&nbsp;people reconnecting with the natural world.
+											</p>
+											<p>
+												Gardening is&nbsp;one way many are &laquo;awakening&raquo;
+												to&nbsp;connect with
+												nature, often to&nbsp;combat work, stress, and excessive internet time. The
+												report
+												authors state that through this awakening, people will become new
+												environmentalists
+												awakened to&nbsp;our responsibility to&nbsp;save the Earth. &laquo;According
+												to&nbsp;author Michael McCarthy, a&nbsp;modern-day Rachel Carson, finding joy
+												in&nbsp;nature will help save the environment, and in&nbsp;turn,
+												save&nbsp;us.&raquo; The report describes this as&nbsp;a&nbsp;trend from
+												self-care,
+												to&nbsp;care for Mother Earth; a&nbsp;trend from &laquo;Me&raquo;
+												to&nbsp;&laquo;She&raquo;.
+											</p>
+											<p>
+												More people are gardening, and gardening more, than ever
+												before, according
+												to&nbsp;the National Gardening Association&rsquo;s annual survey. Many
+												of&nbsp;these
+												are the Millennial demographic (also called &laquo;Gen&nbsp;Y&raquo;, being those
+												born roughly between 1981 and 1996). &laquo;Average households set
+												a&nbsp;spending
+												record of&nbsp;$503&mdash;up nearly $100 over the previous year. Almost
+												a&nbsp;third
+												of&nbsp;all gardening households were those 18&nbsp;to&nbsp;34&nbsp;years
+												old&mdash;another record.&raquo; Within gardening, one of&nbsp;the hottest trends
+												is&nbsp;sustainable landscapes using native plants.
+											</p>
+											<p>
+												The first of&nbsp;the specific trends pegged for
+												2019&nbsp;is termed the
+												&laquo;Indoor Generation.&raquo; This generation consists of&nbsp;nearly
+												90&nbsp;percent of&nbsp;people worldwide who spend at&nbsp;least 22&nbsp;hours
+												a&nbsp;day inside. Americans spend most of&nbsp;their time (93&nbsp;percent)
+												either
+												indoors or&nbsp;in&nbsp;vehicles. Children spend less than one hour daily
+												outside,
+												which is&nbsp;50&nbsp;percent less than their parents did as&nbsp;children.
+											</p>
+											<p>
+												The result of&nbsp;all this time inside is&nbsp;higher rates
+												of&nbsp;obesity,
+												cholesterol, and mental health issues such as&nbsp;anxiety, depression, and
+												insomnia. Yet there is&nbsp;hope, as&nbsp;the indoor generation adds nature
+												indoors,
+												in&nbsp;the form of&nbsp;houseplants. Last year, 30&nbsp;percent
+												of&nbsp;households
+												bought at&nbsp;least one houseplant, with terrariums, cactus plants, and tropical
+												plants among top sellers. Previously considered old-fashioned, houseplants have
+												become the new connection with nature, with about one third of&nbsp;purchases
+												by&nbsp;Millennials.
+											</p>
+											<p>
+												&laquo;Screen Age&raquo; is&nbsp;what the second trend refers to&mdash;too much
+												time
+												in&nbsp;front of&nbsp;computer screens and similar devices, an&nbsp;addiction
+												that
+												can cause physical and psychological problems. &laquo;Blue light from screens can
+												cause lack of&nbsp;sleep, obesity, stress, and depression.&raquo; One of&nbsp;the
+												facts from this trend report is&nbsp;that adults now spend, on&nbsp;average,
+												11&nbsp;hours a&nbsp;day looking at&nbsp;screens, and checking their phones every
+												10&nbsp;minutes.
+											</p>
+											<p>
+												To&nbsp;counteract the &laquo;screen age&raquo;, gardening
+												is&nbsp;recommended,
+												especially for younger generations. It&nbsp;can teach so&nbsp;many skills and
+												habits, from responsibility to&nbsp;patience, trust, confidence, and good earth
+												stewardship. Several means to&nbsp;engage youth are given, including choosing
+												colorful fruits and vegetables, and planting containers with kid-friendly plants
+												such as&nbsp;compact berry plants.
+											</p>
+											<p>
+												The third trend&mdash; &quot;Golden
+												Hearts&laquo;&mdash;refers to&nbsp;&laquo;the
+												new environmentalist...looking for fulfillment outside of&nbsp;themselves and
+												turning to&nbsp;caring for the earth.&raquo; A&nbsp;study by&nbsp;Unilever found
+												that worldwide, about one-third of&nbsp;people &laquo;choose brands for their
+												social
+												and environmental impacts.&raquo; Volunteerism among Millennials set
+												a&nbsp;record,
+												beating the national average. Generation Z&mdash;those born after the Millennials
+												in&nbsp;the late 1990s and early 2000s, roughly 12&nbsp;to&nbsp;21&nbsp;years
+												old&mdash;are becoming the new environmentalists. They&rsquo;re involved
+												in&nbsp;environmental movements, and are choosing schools based
+												on&nbsp;sustainability.
+											</p>
+										</div>
+										<div class="card-description__content" data-target="#three">
+											<p>Choosing flowers for Valentine&rsquo;s Day, growing
+												houseplants such
+												as&nbsp;Swedish ivy, and ordering bare-root fruit trees are some of&nbsp;the
+												gardening activities for this month.</p>
+											<p>When we&nbsp;think of&nbsp;this month, the holiday that
+												often comes to&nbsp;mind
+												is&nbsp;Valentine&rsquo;s Day. Make this holiday special for someone,
+												or&nbsp;several you care for, with flowers. You can buy or&nbsp;send
+												an&nbsp;elaborate floral arrangement, or&nbsp;merely a&nbsp;bouquet or&nbsp;even
+												single-stemmed roses. For color that lasts longer, consider a&nbsp;potted azalea,
+												cyclamen, or&nbsp;cineraria.</p>
+											<p>If&nbsp;you&rsquo;re getting cabin fever, and would like
+												a&nbsp;trip
+												to&nbsp;Florida but don&rsquo;t have the budget or&nbsp;time for one, bring
+												a&nbsp;little of&nbsp;the tropics to&nbsp;you. Visit a&nbsp;local indoor plant
+												retailer or&nbsp;greenhouse for some easy-to-grow houseplants. Grape ivy, Rex
+												begonias with their colorful leaves, and some of&nbsp;the variegated
+												philodendrons will tolerate low light and dry conditions. The grape ivy and
+												philodendron often are seen in&nbsp;hanging baskets.</p>
+											<p>Swedish ivy is&nbsp;an&nbsp;easy-to-grow houseplant with few
+												problems, great for
+												beginners or&nbsp;those that don&rsquo;t have time to&nbsp;fuss with plants. The
+												bright green, scalloped-edged leaves are on&nbsp;trailing succulent vines, making
+												this a&nbsp;common hanging basket plant for indoors. Give this houseplant bright,
+												indirect light as&nbsp;from a&nbsp;north or&nbsp;east window, or&nbsp;through
+												sheer curtains. Don&rsquo;t overwater, and try to&nbsp;keep plants between
+												60&nbsp;and 75&nbsp;degrees (F).</p>
+											<p>
+												Now is&nbsp;the time to&nbsp;order bare-root fruit trees,
+												which are shipped
+												&laquo;bare root&raquo; in&nbsp;late winter or&nbsp;early spring (for planting
+												time in&nbsp;your area) before they start to&nbsp;grow. When ordering fruit
+												trees, make sure they are hardy for your area. Also check the descriptions
+												to&nbsp;make sure that they are the best performing cultivars (cultivated
+												varieties) for your area. Many need at&nbsp;least two different cultivars for
+												cross pollination, and even those that don&rsquo;t may fruit better with cross
+												pollination.
+												There are several flowers that you can start from seeds at&nbsp;the end
+												of&nbsp;February as&nbsp;they take 10&nbsp;to&nbsp;12&nbsp;weeks to&nbsp;grow
+												large enough to&nbsp;set out. Some of&nbsp;these are perennials, such
+												as&nbsp;columbine and bellflower. Early in&nbsp;the month start wax begonias
+												if&nbsp;you have these seeds, and didn&rsquo;t sow them last month. Toward the
+												end of&nbsp;the month is&nbsp;the time to&nbsp;sow annual statice, wishbone
+												flower, and annual vinca or&nbsp;periwinkle.
+											</p>
+											<p>For seeds that need warmth to&nbsp;germinate, a&nbsp;heat
+												mat underneath the flat
+												can make a&nbsp;big difference. Once the seedlings are&nbsp;up, move them off the
+												mat and grow them on&nbsp;at&nbsp;a&nbsp;cooler temperature to&nbsp;encourage
+												strong, stocky growth. If&nbsp;a&nbsp;temperature isn&rsquo;t given on&nbsp;the
+												seed packet, aim for an&nbsp;air temperature
+												of&nbsp;65&nbsp;to&nbsp;70&nbsp;degrees (F) for best growth. Too warm (especially
+												if&nbsp;insufficient light) and seedlings will get tall and leggy.</p>
+											<p>If&nbsp;you are preparing to&nbsp;start seeds under grow
+												lights
+												or&nbsp;fluorescent shop lights indoors, check the tubes for signs of&nbsp;age.
+												Tubes that have been used for two to&nbsp;three seasons probably have lost much
+												of&nbsp;their intensity, even though they look fine. Dark rings on&nbsp;the ends
+												of&nbsp;the tubes are a&nbsp;sign that they need to&nbsp;be&nbsp;replaced. Look
+												for energy-efficient tubes, and ones that have a&nbsp;daylight or&nbsp;natural
+												spectrum of&nbsp;light wavelengths. Otherwise, you can alternate warm white and
+												cool white tubes. Keep lights about 6&nbsp;inches above seedlings as&nbsp;they
+												grow.</p>
+											<p>Other tips include checking stored summer bulbs such
+												as&nbsp;dahlias, taking
+												cold-stored and potted spring bulbs out for forcing, checking houseplants for
+												pests, and keeping birds fed.</p>
+										</div>
+										<div class="card-description__content" data-target="#four">
+											<p>Kalanchoe is&nbsp;a&nbsp;popular flowering indoor plant used
+												year round, but
+												particularly found for sale during the Thanksgiving and Christmas seasons. This
+												succulent plant (thick, fleshy leaves) has bright flowers, coming in&nbsp;various
+												colors, and with the proper care lasts for weeks.</p>
+											<p>Kalanchoe (pronounced kal-AN-cho or&nbsp;KAL-an-CO-ee) come
+												with either red,
+												pink, orange, yellow, or&nbsp;white flowers. Often you can enjoy their blooms for
+												a&nbsp;couple months or&nbsp;more. While they naturally bloom in&nbsp;spring,
+												growers &laquo;force&raquo; them to&nbsp;bloom any time of&nbsp;year.</p>
+											<p>While most discard plants after bloom, you can try
+												to&nbsp;rebloom them again.
+												Grow them normally then, about 8&nbsp;weeks or&nbsp;so&nbsp;before you want them
+												to&nbsp;bloom, give them &laquo;short days&raquo;. This photoperiod treatment
+												is&nbsp;actually long nights&mdash;no light for 14&nbsp;hours daily, such
+												as&nbsp;in&nbsp;a&nbsp;dark closet between 6pm and 8am. During this time, reduce
+												watering. After about six weeks you should see buds forming, at&nbsp;which time
+												leave them in&nbsp;full light daily and water normally.</p>
+											<p>Kalanchoe like bright light, such
+												as&nbsp;a&nbsp;south-facing window. Leggy
+												plants mean they aren&rsquo;t getting enough light. Also, they like warm
+												temperatures as&nbsp;in&nbsp;most homes, and should not be&nbsp;exposed
+												to&nbsp;cold below about 50&nbsp;degrees (F). While the plant is&nbsp;growing,
+												and in&nbsp;particular blooming, fertilize with product of&nbsp;your choice
+												according to&nbsp;label directions. They don&rsquo;t need much fertilizer,
+												so&nbsp;you may want to&nbsp;use half strength, or&nbsp;fertilize less often than
+												recommended.</p>
+											<p>Their succulent leaves that are designed not to&nbsp;dry out
+												readily, and
+												to&nbsp;store water, give the clue that they prefer drier soils. So,
+												if&nbsp;in&nbsp;doubt, don&rsquo;t water them. This is&nbsp;the main means plants
+												die indoors prematurely. Watering once a&nbsp;week, often less, will
+												be&nbsp;sufficient. Make sure if&nbsp;they&rsquo;re in&nbsp;a&nbsp;foil wrapper
+												or&nbsp;saucer that water can drain, or&nbsp;empty any after watering the plant.
+												These thick leaves also make them adaptable to&nbsp;the normally dry air indoors
+												during winter.</p>
+											<p>If&nbsp;you&rsquo;re keeping your plants and they need
+												repotting, don&rsquo;t use
+												a&nbsp;pot much larger than the current one, and use a&nbsp;well-draining potting
+												mix such as&nbsp;for cacti and succulents&mdash;one often containing perlite
+												(white granules) or&nbsp;sand. Clay pots help keep the soil drier than plastic
+												ones. Just make sure pots have drainage holes.</p>
+											<p>Other than root rots from overwatering, the only problems
+												you may encounter
+												on&nbsp;kalanchoe are white mealybugs and brown scale insects.
+												If&nbsp;you&rsquo;re discarding the plant after bloom, these won&rsquo;t
+												be&nbsp;a&nbsp;concern. But if&nbsp;keeping the plant, check it&nbsp;weekly (when
+												you&rsquo;re watering is&nbsp;a&nbsp;good time) for such pests. If&nbsp;found,
+												merely wipe off with a&nbsp;damp cloth or&nbsp;swab and rubbing alcohol. Wiping
+												leaves periodically will keep the dust off too.</p>
+											<p>Kalanchoe is&nbsp;in&nbsp;the Crassula family, with the
+												well-known Jade Plant
+												a&nbsp;close relative. While there are 125&nbsp;or more species
+												of&nbsp;kalanchoe, some more upright and some hanging and many just grown for
+												attractive leaves, most flowering selections you&rsquo;ll find for sale are
+												of&nbsp;one species (blossfeldiana). This originally came from Madagascar,
+												introduced in&nbsp;1932 by&nbsp;the German botanist Robert Blossfeld. It, and its
+												selections, range from six to&nbsp;12&nbsp;inches tall.</p>
+											<p>One variation in&nbsp;particular that you may find
+												is&nbsp;the Calandiva series.
+												The small, tubular flowers have 32&nbsp;petals instead of&nbsp;4,
+												so&nbsp;resemble a&nbsp;miniature rose. This mutant was first found
+												by&nbsp;a&nbsp;Swedish grower in&nbsp;1998 among purple flowers, and then was
+												first introduced to&nbsp;the public in&nbsp;2002. This series includes
+												a&nbsp;wide range of&nbsp;colors, including salmon, lavender, and burgundy.</p>
+											<p>Keep them out of&nbsp;reach of&nbsp;dogs and cats&nbsp;as, if&nbsp;ingested, they
+												may make pets sick.</p>
+										</div>
+										<div class="card-description__content" data-target="#five">
+											<p>The winter solstice, which occurs on&nbsp;or&nbsp;around
+												Dec.&nbsp;21&nbsp;(in&nbsp;the northern hemisphere), is&nbsp;the first day
+												of&nbsp;winter. It&rsquo;s also the shortest day and the longest night
+												of&nbsp;the year. While most of&nbsp;us barely acknowledge its passing,
+												to&nbsp;earlier cultures this was a&nbsp;day of&nbsp;both trepidation and
+												celebration. Ancient peoples often used plants to&nbsp;mark this day&mdash;plants
+												we&nbsp;still use today for this season.</p>
+											<p>The early Romans, Egyptians, Celtics and their priests called Druids, and others
+												observed that by&nbsp;December the fields were no&nbsp;longer producing crops,
+												leaves had fallen off the trees, and many plants had died. Daylight hours were
+												waning, and the sun was getting lower and lower in&nbsp;the sky. Without our
+												current knowledge of&nbsp;astronomy and celestial cycles, they feared the sun
+												would completely disappear, leaving them without light and warmth.</p>
+											<p>They lit bonfires to&nbsp;light up&nbsp;the skies on&nbsp;this longest
+												of&nbsp;nights both for warmth and to&nbsp;coax the sun to&nbsp;return. They
+												thought the fire would call out to&nbsp;the sun, asking it&nbsp;to&nbsp;stop its
+												descent into the earth and return to&nbsp;the sky. You may see this Druid
+												festival referred to&nbsp;as&nbsp;&laquo;Alban Arthan&raquo;, translated from
+												Welsh as&nbsp;&laquo;light of&nbsp;winter.&raquo;</p>
+											<p>The sun, considered a&nbsp;supreme being, was often considered ill, only
+												to&nbsp;recover with the longer days after the solstice. Some experts believe the
+												word &laquo;Yule&raquo;, another term for Christmas, came from the similar Gothic
+												and Saxon words meaning wheel. This would have referred to&nbsp;the cycles
+												of&nbsp;the sun.</p>
+											<p>Oak was usually used for these bonfires because, being
+												a&nbsp;&laquo;strong,&raquo; solid wood, it&nbsp;was perceived to&nbsp;represent
+												strength and triumph. The Saxons and Celtics often kept an&nbsp;oak log&mdash;
+												usually the entire trunk of&nbsp;a&nbsp;tree&mdash;burning for 12&nbsp;hours
+												on&nbsp;the eve of&nbsp;the solstice. If&nbsp;the fire did not go&nbsp;out during
+												this period, the household would be&nbsp;protected and see an&nbsp;abundance
+												of&nbsp;crops, good health, and other desirable things in&nbsp;the coming year.
+												Many European cultures, especially the British, adopted this tradition, calling
+												it&nbsp;the Yule log.</p>
+											<p>Some have written that the yule log must come from one&rsquo;s own land,
+												or&nbsp;be&nbsp;a&nbsp;present, not bought. This legend says that it&nbsp;must
+												be&nbsp;kept burning slowly for 12&nbsp;days, before being put out. The ashes
+												were then scattered in&nbsp;fields, symbolizing the spreading of&nbsp;the power
+												of&nbsp;the sun. The yule log remains were to&nbsp;be&nbsp;kept until the next
+												year, to&nbsp;light the new fire then and thus passing on&nbsp;the light from one
+												year to&nbsp;the next.</p>
+											<p>Other species of&nbsp;trees also played a&nbsp;significant role in&nbsp;solstice
+												celebrations. The Romans, Celtics, Teutons, and Christians, for example, all
+												considered the evergreen to&nbsp;be&nbsp;an&nbsp;important symbol of&nbsp;the
+												continuity of&nbsp;life, protection, and future prosperity as&nbsp;it&nbsp;was
+												one of&nbsp;the only trees to&nbsp;stay green during the bleak,
+												&laquo;lifeless&raquo; winter months. Fir, cedar, and pine boughs and wreaths
+												were used to&nbsp;decorate homes.</p>
+											<p>Small gifts for the gods representing the sun, earth, and harvest also were hung
+												from the branches of&nbsp;pine trees in&nbsp;groves. Some people believe this
+												custom evolved into the Christian tradition of&nbsp;decorating an&nbsp;evergreen
+												tree in&nbsp;December.</p>
+											<p>Other sacred trees of&nbsp;the solstice were the yew (symbolizing death and the
+												last day of&nbsp;the solar year), silver fir (winter solstice day and rebirth),
+												and birch (new beginnings). The Celtics believed plants brought indoors during
+												the solstice would assure woodland spirits safe refuge there during the winter
+												months. They used yellow cedar (arborvitae) to&nbsp;symbolize cleansing and
+												purity, ash to&nbsp;symbolize the sun (considered a&nbsp;supreme being) and
+												protection, and the pine for peace, healing, and joy. Druid holiday colors
+												of&nbsp;red, green and white are represented by&nbsp;berries (red), greens, and
+												white berries (mistletoe) or&nbsp;white birch bark.</p>
+										</div>
+									</div>
+								</div>
+								<div class="card-related">
+									<h2 class="card-related__title">Related Products</h2>
+									<div class="card-related__slider _swiper">
+										<div class="card-swiper-slide">
+											<article class="product">
+												<div class="product__image _ibg">
+													<div class="product__ribbon">Sale</div>
+													<img src="img/s1-min.jpg" alt="prod #">
+												</div>
+												<h3 class="product__title">
+													<a href="#">
+														Royal Rose
+													</a>
+												</h3>
+												<div class="product-custom">
+													<div class="product-custom__price">
+														<span class="product__price">$15.00</span>
+														<span class="product__oldprice">$16.00</span>
+													</div>
+													<div class="product-custom__cart">
+														<button class="to-cart">Add to cart</button>
+													</div>
+												</div>
+											</article>
+										</div>
+										<div class="card-swiper-slide">
+											<article class="product">
+												<div class="product__image _ibg">
+													<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+													<img src="img/c1-min.jpg" alt="prod #">
+												</div>
+												<h3 class="product__title">
+													<a href="#">
+														Bird`s Foot Violet
+													</a>
+												</h3>
+												<div class="product-custom">
+													<div class="product-custom__price">
+														<span class="product__price">$12.00</span>
+													</div>
+													<div class="product-custom__cart">
+														<button class="to-cart">Add to cart</button>
+													</div>
+												</div>
+											</article>
+										</div>
+										<div class="card-swiper-slide">
+											<article class="product">
+												<div class="product__image _ibg">
+													<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+													<img src="img/c2-min.jpg" alt="prod #">
+												</div>
+												<h3 class="product__title">
+													<a href="#">
+														Dahlia "Great Silence"
+													</a>
+												</h3>
+												<div class="product-custom">
+													<div class="product-custom__price">
+														<span class="product__price">$22.00</span>
+													</div>
+													<div class="product-custom__cart">
+														<button class="to-cart">Add to cart</button>
+													</div>
+												</div>
+											</article>
+										</div>
+										<div class="card-swiper-slide">
+											<article class="product">
+												<div class="product__image _ibg">
+													<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+													<img src="img/s2-min.jpg" alt="prod #">
+												</div>
+												<h3 class="product__title">
+													<a href="#">
+														Blue Poppy
+													</a>
+												</h3>
+												<div class="product-custom">
+													<div class="product-custom__price">
+														<span class="product__price">$12.00</span>
+													</div>
+													<div class="product-custom__cart">
+														<button class="to-cart">Add to cart</button>
+													</div>
+												</div>
+											</article>
+										</div>
+										<div class="card-swiper-slide">
+											<article class="product">
+												<div class="product__image _ibg">
+													<span class="product__best _icon-certificate"><span>Best Seller</span></span>
+													<img src="img/s6-min.jpg" alt="prod #">
+												</div>
+												<h3 class="product__title">
+													<a href="#">
+														Rose Topaz
+													</a>
+												</h3>
+												<div class="product-custom">
+													<div class="product-custom__price">
+														<span class="product__price">$22.00</span>
+													</div>
+													<div class="product-custom__cart">
+														<button class="to-cart">Add to cart</button>
+													</div>
+												</div>
+											</article>
+										</div>
+										<div class="card-swiper-slide">
+											<article class="product">
+												<div class="product__image _ibg">
+													<span class="product__new _icon-spa"><span>New</span></span>
+													<img src="img/s7-min.jpg" alt="prod #">
+												</div>
+												<h3 class="product__title">
+													<a href="#">
+														Lily Absolute
+													</a>
+												</h3>
+												<div class="product-custom">
+													<div class="product-custom__price">
+														<span class="product__price">$13.00</span>
+													</div>
+													<div class="product-custom__cart">
+														<button class="to-cart">Add to cart</button>
+													</div>
+												</div>
+											</article>
+										</div>
+										<div class="card-swiper-slide">
+											<article class="product">
+												<div class="product__image _ibg">
+													<span class="product__new _icon-spa"><span>New</span></span>
+													<img src="img/c9-min.jpg" alt="prod #">
+												</div>
+												<h3 class="product__title">
+													<a href="#">
+														Lion`s Rose
+													</a>
+												</h3>
+												<div class="product-custom">
+													<div class="product-custom__price">
+														<span class="product__price">$26.00</span>
+													</div>
+													<div class="product-custom__cart">
+														<button class="to-cart">Add to cart</button>
+													</div>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="related-pag"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__content">
+			<div class="footer__top">
+				<div class="footer__column">
+					<h3 class="footer__title">Customer Service</h3>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="tel:+8665972742" class="footer__link">Phone: +866.597.2742</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Live chat</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">About Us</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<h3 class="footer__title">Company</h3>
+					<ul class="footer__list">
+						<li class="footer__item"><a href="#" class="footer__link">What We Do</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Available Services</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">Latest Posts</a></li>
+						<li class="footer__item"><a href="#" class="footer__link">FAQs</a></li>
+					</ul>
+				</div>
+				<div class="footer__column footer__column_big">
+					<h3 class="footer__title">Our Newsletter</h3>
+
+					<form action="#" class="footer__form form">
+						<h4 class="form__title">Join our list and get 15% off your first purchase!</h4>
+						<div class="form__line">
+							<label for="inp" class="form__label"></label>
+							<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Chech Your Email"
+								data-value="Email Address" class="input _email _req">
+						</div>
+						<button class="form__btn btn" type="submit">Subscribe</button>
+					</form>
+					<span class="footer__text">*Don’t worry we don’t spam</span>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__left">
+					<ul class="footer__list footer__list_row">
+						<li class="footer__item"><a href="#" class="footer__link footer__link_row">Returns
+								Policy</a></li>
+						<li class="footer__item"><a href="#" class="footer__link footer__link_row">Track Your
+								Order</a></li>
+						<li class="footer__item"><a href="#" class="footer__link footer__link_row">Shipping &
+								Delivery</a></li>
+					</ul>
+				</div>
+				<div class="footer__right">
+					<ul class="social footer__social">
+						<li class="social__item"><a href="#" class="social__link _icon-twitter"
+								aria-label="Go to twitter"></a></li>
+						<li class="social__item"><a href="#" class="social__link _icon-facebook"
+								aria-label="Go to facebook"></a></li>
+						<li class="social__item"><a href="#" class="social__link _icon-instagram"
+								aria-label="Go to instagram"></a></li>
+						<li class="social__item"><a href="#" class="social__link _icon-pinterest"
+								aria-label="Go to pinterest"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class=" footer__afterworld afterworld">
+				<div class="afterworld__left">
+					<small class="afterworld__copy">
+						©2021 Mom All rights reserved
+					</small>
+				</div>
+				<ul class="afterworld__right">
+					<li class="afterworld__item">
+						<div class="afterworld__payment _icon-cc-mastercard"></div>
+					</li>
+					<li class="afterworld__item">
+						<div class="afterworld__payment _icon-cc-visa"></div>
+					</li>
+					<li class="afterworld__item">
+						<div class="afterworld__payment _icon-cc-paypal"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<div class="modal">
+	<div class="modal__content">
+		<div class="modal__body">
+			<button data-close class="modal__close" aria-label="Закрыть модальное окно">
+				<svg>
+					<use xlink:href="sprite.svg#close"></use>
+				</svg>
+			</button>
+			<div class="cart-modal__top">
+				<h2 class="cart-modal__title">ORDERING</h2>
+				<span class="cart-modal__order-number"># 8754</span>
+			</div>
+			<div class="cart-modal-order">
+				<div class="cart-modal-order__top">
+					<div class="span cart-modal-order__quantity">Items in the Basket: <span>3 item</span></div>
+					<div class="span cart-modal-order__summ">Total Amount of the Order: <span>1 009 $</span></div>
+				</div>
+				<div class="cart-modal-order__content">
+					<button class="cart-modal-order__show">
+						Order List
+						<svg>
+							<use xlink:href="sprite.svg#angle"></use>
+						</svg>
+					</button>
+					<ul class="cart-modal-order__list">
+						<li class="cart-modal-order__item">
+							<article class="cart-modal-order__product cart-modal-product">
+								<div class="cart-modal-product__image">
+									<img src="img/c8-min.jpg" alt="">
+								</div>
+								<div class="cart-modal-product__content">
+									<div class="cart-modal-product__text">
+										<h3 class="cart-modal-product__title">Cosmea Cosmos</h3>
+										<span class="cart-modal-product__price">9.00</span>
+									</div>
+									<button class="cart-modal-product__delete" aria-label="Удалить товар">
+										Delete
+									</button>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<form action="#" class="cart-modal__form form-modal">
+				<div class="form-modal__line">
+					<label for="client-name" class="form-modal__label"></label>
+					<input id="client-name" autocomplete="off" type="text" name="form[]" data-error="Enter Your Name"
+						data-value="Your Name" class="input form-modal__input _req">
+				</div>
+				<div class="form-modal__line">
+					<label for="client-phone" class="form-modal__label"></label>
+					<input id="client-phone" autocomplete="off" type="text" name="form[]" data-error=""
+						data-value="+1 (_ _) _ _ - _ _ - _ _" class="input form-modal__input _phone _req">
+				</div>
+				<div class="form-modal__line">
+					<label for="client-email" class="form-modal__label"></label>
+					<input id="client-email" autocomplete="off" type="text" name="form[]" data-error="Chech Your Email"
+						data-value="Email Address" class="input form-modal__input _email _req">
+				</div>
+				<button type="submit" class="form-modal__btn btn_order cart-modal__btn">CHECKOUT</button>
+			</form>
+		</div>
+	</div>
+</div>
+	<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
